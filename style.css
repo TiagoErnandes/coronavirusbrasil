@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Cinzel|Courgette|Dancing+Script|Homemade+Apple|IBM+Plex+Mono|Indie+Flower|Lobster|Merriweather|Pacifico|Ranga|Shadows+Into+Light&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.coronaBack{
+  width: 100%;
+  height: 200px;
+  background: url('images/coronaBackground.jpeg') no-repeat center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+
+.inner_header{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+  }
+
+
+.logo_container h1{
+  color: white;
+  height: 100%;
+  padding-top: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat',monospace;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span{
+  font-weight:800;
+}
+.navigation{
+  float: right;
+  height: 100%;
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+.navigation a li:hover{
+  color: #8DDBCC;
+}
+
+.navigation a:last-child{
+  padding-right:  0;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Montserrat',monospace;
+  font-size: 16px;
+}
+
+.dados{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  
+}
+.donors{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 80px;
+  
+}
+
+.blood {
+  color: #f72b2b;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.blood::before{
+  content: "";
+  background-color: #ff4f4f11;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  /*Gotinha*/
+  border-radius: 50%;
+  border-top-right-radius: 0;
+
+  transform: rotate(-45deg);
+ 
+}
+
+.donor p {
+  margin-top: 24px;
+  margin-bottom: 30px;
+ padding: 10px 14px;
+ font-size: 16px;
+}
+
+#sub-title{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 16px;
+}
+
+.footer{
+  background-color: #101010;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  color: white;  
+}

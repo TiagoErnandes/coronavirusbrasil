@@ -1,0 +1,12 @@
+
+li{
+    list-style: none;
+}
+
+.borda{
+    width: 600px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 12px 20px;   
+}
+
