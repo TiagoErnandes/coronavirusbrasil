@@ -138,9 +138,11 @@ body{
 
 .footer{
   background-color: #101010;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding: 15px 0;
   color: white;  
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
