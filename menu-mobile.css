@@ -1,0 +1,18 @@
+
+
+@media (max-width: 700px){
+  .container{
+    width: 96%;
+  }
+  .logo_container h1{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .inner_header{
+    width: 95%;
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+
+}
